@@ -38,7 +38,7 @@ const todosReducer=(state=initialState, action)=>{
         case FILTERTODO :
             return {
                 ...state,
-                FILTERTODO:action.payload.x
+                filter:action.payload.x
             }
             case FILTERING :
         return {
